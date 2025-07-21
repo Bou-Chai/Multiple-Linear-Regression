@@ -1,0 +1,3 @@
+[submodule "libs/Tables"]
+	path = libs/Tables
+	url = https://github.com/Bou-Chai/Tables.git
