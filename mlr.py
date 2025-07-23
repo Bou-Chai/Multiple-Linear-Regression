@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 
-df = pd.read_csv("./data/winequality-red.csv", sep=";")
+df = pd.read_csv("./tests/data/winequality-red.csv", sep=";")
 
 features = df.iloc[:, :-1]
 target = df.iloc[:, -1]
