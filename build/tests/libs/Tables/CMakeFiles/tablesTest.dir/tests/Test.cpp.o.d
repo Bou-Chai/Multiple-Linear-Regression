@@ -200,5 +200,4 @@ libs/Tables/CMakeFiles/tablesTest.dir/tests/Test.cpp.o: \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/libs/Tables/./src/ColumnBase.h \
- /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/libs/Tables/./include/Tables/Column.h \
- /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/libs/Tables/./include/Tables/NumericalColumn.h
+ /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/libs/Tables/./include/Tables/Column.h

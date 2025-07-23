@@ -8,9 +8,10 @@ class MLRModel {
 public:
     // Function to estimate target according to features
     double estimate(const std::vector<double>& featureVals);
-    void train(tables::Table& featureData, tables::Column<double>& targetData, int epochs);
-    int getConstant();
-    void setConstant(int constant);
+    // Function to train the model given a table of data, the range of the features column, the index of the target column, and the number of epochs
+    void train(tables::Table& trainingData, int featuresStart, int featuresEnd, std::string targetColIndex, int epochs);
+    double getConstant();
+    void setConstant(double constant);
     std::vector<double> getCoeffs();
     void setCoeffs(std::vector<double>);
     double getLearningRate();
@@ -18,7 +19,7 @@ public:
 
 private:
     double learningRate = 0.1;
-    int constant;
+    double constant;
     std::vector<double> coeffs;
 };
 

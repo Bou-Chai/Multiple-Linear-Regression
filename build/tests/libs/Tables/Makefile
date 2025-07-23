@@ -144,6 +144,44 @@ tablesTest/fast:
 	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/tablesTest.dir/build.make libs/Tables/CMakeFiles/tablesTest.dir/build
 .PHONY : tablesTest/fast
 
+# Convenience name for target.
+libs/Tables/CMakeFiles/normalizationTest.dir/rule:
+	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/Tables/CMakeFiles/normalizationTest.dir/rule
+.PHONY : libs/Tables/CMakeFiles/normalizationTest.dir/rule
+
+# Convenience name for target.
+normalizationTest: libs/Tables/CMakeFiles/normalizationTest.dir/rule
+.PHONY : normalizationTest
+
+# fast build rule for target.
+normalizationTest/fast:
+	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/normalizationTest.dir/build.make libs/Tables/CMakeFiles/normalizationTest.dir/build
+.PHONY : normalizationTest/fast
+
+tests/NormalizationTest.o: tests/NormalizationTest.cpp.o
+.PHONY : tests/NormalizationTest.o
+
+# target to build an object file
+tests/NormalizationTest.cpp.o:
+	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/normalizationTest.dir/build.make libs/Tables/CMakeFiles/normalizationTest.dir/tests/NormalizationTest.cpp.o
+.PHONY : tests/NormalizationTest.cpp.o
+
+tests/NormalizationTest.i: tests/NormalizationTest.cpp.i
+.PHONY : tests/NormalizationTest.i
+
+# target to preprocess a source file
+tests/NormalizationTest.cpp.i:
+	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/normalizationTest.dir/build.make libs/Tables/CMakeFiles/normalizationTest.dir/tests/NormalizationTest.cpp.i
+.PHONY : tests/NormalizationTest.cpp.i
+
+tests/NormalizationTest.s: tests/NormalizationTest.cpp.s
+.PHONY : tests/NormalizationTest.s
+
+# target to generate assembly for a file
+tests/NormalizationTest.cpp.s:
+	cd /home/bou-chai/Projects/AI/ML/Multiple-Linear-Regression/build/tests && $(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/normalizationTest.dir/build.make libs/Tables/CMakeFiles/normalizationTest.dir/tests/NormalizationTest.cpp.s
+.PHONY : tests/NormalizationTest.cpp.s
+
 tests/Test.o: tests/Test.cpp.o
 .PHONY : tests/Test.o
 
@@ -177,7 +215,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... libTables"
+	@echo "... normalizationTest"
 	@echo "... tablesTest"
+	@echo "... tests/NormalizationTest.o"
+	@echo "... tests/NormalizationTest.i"
+	@echo "... tests/NormalizationTest.s"
 	@echo "... tests/Test.o"
 	@echo "... tests/Test.i"
 	@echo "... tests/Test.s"

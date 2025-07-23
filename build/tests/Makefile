@@ -168,6 +168,19 @@ tablesTest/fast:
 	$(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/tablesTest.dir/build.make libs/Tables/CMakeFiles/tablesTest.dir/build
 .PHONY : tablesTest/fast
 
+#=============================================================================
+# Target rules for targets named normalizationTest
+
+# Build rule for target.
+normalizationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normalizationTest
+.PHONY : normalizationTest
+
+# fast build rule for target.
+normalizationTest/fast:
+	$(MAKE) $(MAKESILENT) -f libs/Tables/CMakeFiles/normalizationTest.dir/build.make libs/Tables/CMakeFiles/normalizationTest.dir/build
+.PHONY : normalizationTest/fast
+
 src/MLRModel.o: src/MLRModel.cpp.o
 .PHONY : src/MLRModel.o
 
@@ -226,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... libMLRModel"
 	@echo "... libTables"
+	@echo "... normalizationTest"
 	@echo "... tablesTest"
 	@echo "... testMLRModel"
 	@echo "... src/MLRModel.o"
