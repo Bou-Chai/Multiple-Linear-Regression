@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblibMLRModel.a CMakeFiles/libMLRModel.dir/src/MLRModel.cpp.o
-/usr/bin/ranlib liblibMLRModel.a
